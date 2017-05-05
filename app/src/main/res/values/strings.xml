@@ -1,0 +1,12 @@
+<resources>
+    <string name="teamA">Team A</string>
+    <string name="teamB">Team B</string>
+    <string name="points">0</string>
+    <string name="app_name">Score Keeper</string>
+    <string name="field_goal">Field goal</string>
+    <string name="touchdown">Touchdown</string>
+    <string name="try_for_extra_point1">Try for extra point (1 pts)</string>
+    <string name="try_for_extra_point2">Try for extra point (2 pts)</string>
+    <string name="safety">Safety</string>
+    <string name="reset">Reset</string>
+</resources>

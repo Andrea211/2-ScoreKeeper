@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Teams"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/teamA" />
+
+            <TextView
+                android:id="@+id/team_a_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Score"
+                android:textColor="#EEEEEE"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/points" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    style="@style/Buttons"
+                    android:textColor="#EEEEEE"
+                    android:layout_weight="8"
+                    android:onClick="field_goalA"
+                    android:text="@string/field_goal" />
+
+                <TextView
+                    android:id="@+id/field_goalA"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    style="@style/Points"
+                    android:textColor="#EEEEEE"
+                    android:text="@string/points" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    style="@style/Buttons"
+                    android:textColor="#EEEEEE"
+                    android:layout_weight="8"
+                    android:onClick="touchdownA"
+                    android:text="@string/touchdown" />
+
+                <TextView
+                    android:id="@+id/touchdownA"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    style="@style/Points"
+                    android:textColor="#EEEEEE"
+                    android:text="@string/points"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    style="@style/Buttons"
+                    android:textColor="#EEEEEE"
+                    android:layout_weight="8"
+                    android:onClick="try_for_extra_point1A"
+                    android:text="@string/try_for_extra_point1" />
+
+                <TextView
+                    android:id="@+id/try_for_extra_point1A"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    style="@style/Points"
+                    android:textColor="#EEEEEE"
+                    android:text="@string/points" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button"
+                    style="@style/Buttons"
+                    android:textColor="#EEEEEE"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:onClick="try_for_extra_point2A"
+                    android:text="@string/try_for_extra_point2" />
+
+                <TextView
+                    android:id="@+id/try_for_extra_point2A"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    style="@style/Points"
+                    android:textColor="#EEEEEE"
+                    android:text="@string/points" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    style="@style/Buttons"
+                    android:textColor="#EEEEEE"
+                    android:layout_weight="8"
+                    android:onClick="safetyA"
+                    android:text="@string/safety" />
+
+                <TextView
+                    android:id="@+id/safetyA"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    style="@style/Points"
+                    android:textColor="#EEEEEE"
+                    android:text="@string/points" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/black" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Teams"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/teamB" />
+
+            <TextView
+                android:id="@+id/team_b_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Score"
+                android:textColor="#EEEEEE"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/points" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    style="@style/Buttons"
+                    android:textColor="#EEEEEE"
+                    android:layout_weight="8"
+                    android:onClick="field_goalB"
+                    android:text="@string/field_goal" />
+
+                <TextView
+                    android:id="@+id/field_goalB"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="12dp"
+                    android:layout_weight="1"
+                    style="@style/Points"
+                    android:textColor="#EEEEEE"
+                    android:text="@string/points" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    style="@style/Buttons"
+                    android:textColor="#EEEEEE"
+                    android:layout_weight="8"
+                    android:onClick="touchdownB"
+                    android:text="@string/touchdown" />
+
+                <TextView
+                    android:id="@+id/touchdownB"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="12dp"
+                    android:layout_weight="1"
+                    style="@style/Points"
+                    android:textColor="#EEEEEE"
+                    android:text="@string/points" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    style="@style/Buttons"
+                    android:textColor="#EEEEEE"
+                    android:layout_weight="8"
+                    android:onClick="try_for_extra_point1B"
+                    android:text="@string/try_for_extra_point1" />
+
+                <TextView
+                    android:id="@+id/try_for_extra_point1B"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="12dp"
+                    android:layout_weight="1"
+                    style="@style/Points"
+                    android:textColor="#EEEEEE"
+                    android:text="@string/points" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    style="@style/Buttons"
+                    android:textColor="#EEEEEE"
+                    android:layout_weight="8"
+                    android:onClick="try_for_extra_point2B"
+                    android:text="@string/try_for_extra_point2" />
+
+                <TextView
+                    android:id="@+id/try_for_extra_point2B"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="12dp"
+                    android:layout_weight="1"
+                    style="@style/Points"
+                    android:textColor="#EEEEEE"
+                    android:text="@string/points" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    style="@style/Buttons"
+                    android:textColor="#EEEEEE"
+                    android:layout_weight="8"
+                    android:onClick="safetyB"
+                    android:text="@string/safety" />
+
+                <TextView
+                    android:id="@+id/safetyB"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="12dp"
+                    android:layout_weight="1"
+                    style="@style/Points"
+                    android:textColor="#EEEEEE"
+                    android:text="@string/points" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="resetScore"
+        android:text="@string/reset"
+        android:textStyle="bold"
+        android:background="#CC0D47A1"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp" />
+
+</RelativeLayout>

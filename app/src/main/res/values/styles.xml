@@ -1,0 +1,41 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <item name="colorPrimary">#DCEDC8</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">#DCEDC8</item>
+        <item name="android:windowBackground">@drawable/stadium</item>
+    </style>
+
+    <style name="Buttons" parent="Base.TextAppearance.AppCompat.Medium.Inverse">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:background">#CC0D47A1</item>
+    </style>
+
+    <style name="Teams" parent="Base.TextAppearance.AppCompat.Medium.Inverse">
+        <item name="android:gravity">center</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">#EEEEEE</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_marginTop">24dp</item>
+    </style>
+
+    <style name="Score" parent="Base.TextAppearance.AppCompat.Medium.Inverse">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:textSize">56sp</item>
+    </style>
+
+    <style name="Points" parent="Base.TextAppearance.AppCompat.Medium.Inverse">
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">#CC0D47A1</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

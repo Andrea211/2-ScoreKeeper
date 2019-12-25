@@ -33,4 +33,6 @@ The code within a method is indented with respect to the method declaration line
 
 ## Overview of the app 
 
+<p align="center">
 <img src='https://github.com/Andrea211/2-ScoreKeeper/blob/master/2%20-%20ScoreKeeper.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+</p>
